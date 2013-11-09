@@ -1,0 +1,29 @@
+{
+    "name"        : "GitHubTools",
+    "version"     : "0.0.1-prealpha",
+    "description" : "Tools for managing GitHub.",
+    "author"      : "Hannah Wolfe",
+    "homepage"    : "http://hannahwolfe.co.uk",
+    "repository"  : {
+        "type": "git",
+        "url": "git://github.com/ErisDS/GitHubTools.git"
+    },
+    "scripts": {
+        "start": "node index"
+    },
+    "engines": {
+        "node": "0.10.*"
+    },
+    "engineStrict": true,
+    "dependencies": {
+        "github":       "0.1.12",
+        "underscore":   "1.5.2",
+        "when":         "2.5.1"
+    },
+    "optionalDependencies": {
+
+    },
+    "devDependencies": {
+
+    }
+}
